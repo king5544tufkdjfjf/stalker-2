@@ -5,6 +5,7 @@ text-align: center;
 font-size: 40px;
 border-radius: 30px;
 margin: 5px;
+
 }
 h2{
 background: rgb(255,179,0);
@@ -47,7 +48,7 @@ margin: 5px;
     height: 300px;
     perspective: 10000px; /* Глибина 3D ефекту */
     transform-style: preserve-3d;
-    animation: rotate 20s linear infinite; /* Анімація обертання */
+    animation: rotate 40s linear infinite; /* Анімація обертання */
 }
 
 .carousel-item {
@@ -90,4 +91,11 @@ margin: 5px;
         transform: rotateY(360deg);
     }
 }
+.img1 {
+   filter: drop-shadow(1px 5px 20px rgb(255, 0, 0));
+}
+.img2 {
+   filter: drop-shadow(1px 5px 20px rgb(106, 89, 179));
+}
+
 
