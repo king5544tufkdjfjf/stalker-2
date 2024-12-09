@@ -1,0 +1,143 @@
+h1{
+background: rgb(255,179,0);
+background: radial-gradient(circle, rgba(255,179,0,1) 27%, rgba(0,0,0,1) 100%);
+text-align: center;
+font-size: 40px;
+border-radius: 30px;
+margin: 5px;
+}
+h2{
+background: rgb(255,179,0);
+background: radial-gradient(circle, rgba(255,179,0,1) 27%, rgba(0,0,0,1) 100%);
+text-align: center;
+font-size: 40px;
+border-radius: 30px;
+margin: 5px;
+}
+ body{
+    background-color: black;
+ }
+ h3{
+  background: rgb(255,179,0);
+background: radial-gradient(circle, rgba(255,179,0,1) 27%, rgba(0,0,0,1) 100%);
+text-align: center;
+font-size: 40px;
+border-radius: 30px;
+margin: 5px;
+}
+h4{
+     background: rgb(255,179,0);
+background: radial-gradient(circle, rgba(255,179,0,1) 27%, rgba(0,0,0,1) 100%);
+text-align: center;
+font-size: 40px;
+border-radius: 30px;
+margin: 5px;
+}
+h5{
+     background: rgb(255,179,0);
+background: radial-gradient(circle, rgba(255,179,0,1) 27%, rgba(0,0,0,1) 100%);
+text-align: center;
+font-size: 40px;
+border-radius: 30px;
+margin: 5px;
+}
+h6{
+     background: rgb(255,179,0);
+background: radial-gradient(circle, rgba(255,179,0,1) 27%, rgba(0,0,0,1) 100%);
+text-align: center;
+font-size: 40px;
+border-radius: 30px;
+margin: 5px;
+}
+h7{
+     background: rgb(255,179,0);
+background: radial-gradient(circle, rgba(255,179,0,1) 27%, rgba(0,0,0,1) 100%);
+text-align: center;
+font-size: 40px;
+border-radius: 30px;
+margin: 5px;
+}
+h8{
+     background: rgb(255,179,0);
+background: radial-gradient(circle, rgba(255,179,0,1) 27%, rgba(0,0,0,1) 100%);
+text-align: center;
+font-size: 40px;
+border-radius: 30px;
+margin: 5px;
+}
+h9{
+     background: rgb(255,179,0);
+background: radial-gradient(circle, rgba(255,179,0,1) 27%, rgba(0,0,0,1) 100%);
+text-align: center;
+font-size: 40px;
+border-radius: 30px;
+margin: 5px;
+}
+h10{
+     background: rgb(255,179,0);
+background: radial-gradient(circle, rgba(255,179,0,1) 27%, rgba(0,0,0,1) 100%);
+text-align: center;
+font-size: 40px;
+border-radius: 30px;
+margin: 5px;
+}
+h11{
+     background: rgb(255,179,0);
+background: radial-gradient(circle, rgba(255,179,0,1) 27%, rgba(0,0,0,1) 100%);
+text-align: center;
+font-size: 40px;
+border-radius: 30px;
+margin: 5px;
+}
+ul{
+        background: rgb(255,179,0);
+background: radial-gradient(circle, rgba(255,179,0,1) 27%, rgba(0,0,0,1) 100%);
+text-align: center;
+font-size: 30px;
+border-radius: 30px;
+margin: 5px; 
+}
+h12{
+     background: rgb(255,179,0);
+background: radial-gradient(circle, rgba(255,179,0,1) 27%, rgba(0,0,0,1) 100%);
+text-align: center;
+font-size: 40px;
+border-radius: 30px;
+margin: 5px;
+}
+h13{
+     background: rgb(255,179,0);
+background: radial-gradient(circle, rgba(255,179,0,1) 27%, rgba(0,0,0,1) 100%);
+text-align: center;
+font-size: 40px;
+border-radius: 30px;
+margin: 5px;
+}
+h14{
+     background: rgb(255,179,0);
+background: radial-gradient(circle, rgba(255,179,0,1) 27%, rgba(0,0,0,1) 100%);
+text-align: center;
+font-size: 40px;
+border-radius: 30px;
+margin: 5px;
+}
+h15{
+     background: rgb(255,179,0);
+background: radial-gradient(circle, rgba(255,179,0,1) 27%, rgba(0,0,0,1) 100%);
+text-align: center;
+font-size: 40px;
+border-radius: 30px;
+margin: 5px;
+}
+h16{
+     background: rgb(255,179,0);
+background: radial-gradient(circle, rgba(255,179,0,1) 27%, rgba(0,0,0,1) 100%);
+text-align: center;
+font-size: 40px;
+border-radius: 30px;
+margin: 5px;
+}
+.gallery{
+flex-direction: column-reverse;
+flex-wrap: wrap;
+}
