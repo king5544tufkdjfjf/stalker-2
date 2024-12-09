@@ -15,7 +15,7 @@ border-radius: 30px;
 margin: 5px;
 }
  body{
-    background-color: black;
+    background-color: rgb(7, 0, 0);
  }
  h3{
   background: rgb(255,179,0);
@@ -41,3 +41,53 @@ font-size: 40px;
 border-radius: 30px;
 margin: 5px;
 }
+.carousel {
+    position: relative;
+    width: 300px; /* Розмір контейнера */
+    height: 300px;
+    perspective: 10000px; /* Глибина 3D ефекту */
+    transform-style: preserve-3d;
+    animation: rotate 20s linear infinite; /* Анімація обертання */
+}
+
+.carousel-item {
+    position: absolute;
+    width: 70%; /* Розмір елементів (зображень) */
+    height: 70%;
+    transform-origin:center; /* Точка обертання */
+    transform-style: preserve-3d;
+}
+
+/* Розташування 13 зображень рівномірно по колу */
+.carousel-item:nth-child(1) { transform: rotateY(calc(360deg / 13 * 0)) translateZ(500px); }
+.carousel-item:nth-child(2) { transform: rotateY(calc(360deg / 13 * 1)) translateZ(500px); }
+.carousel-item:nth-child(3) { transform: rotateY(calc(360deg / 13 * 2)) translateZ(500px); }
+.carousel-item:nth-child(4) { transform: rotateY(calc(360deg / 13 * 3)) translateZ(500px); }
+.carousel-item:nth-child(5) { transform: rotateY(calc(360deg / 13 * 4)) translateZ(500px); }
+.carousel-item:nth-child(6) { transform: rotateY(calc(360deg / 13 * 5)) translateZ(500px); }
+.carousel-item:nth-child(7) { transform: rotateY(calc(360deg / 13 * 6)) translateZ(500px); }
+.carousel-item:nth-child(8) { transform: rotateY(calc(360deg / 13 * 7)) translateZ(500px); }
+.carousel-item:nth-child(9) { transform: rotateY(calc(360deg / 13 * 8)) translateZ(500px); }
+.carousel-item:nth-child(10) { transform: rotateY(calc(360deg / 13 * 9)) translateZ(500px); }
+.carousel-item:nth-child(11) { transform: rotateY(calc(360deg / 13 * 10)) translateZ(500px); }
+.carousel-item:nth-child(12) { transform: rotateY(calc(360deg / 13 * 11)) translateZ(500px); }
+.carousel-item:nth-child(13) { transform: rotateY(calc(360deg / 13 * 12)) translateZ(500px); }
+
+.carousel img {
+    width: 100%; /* Розмір зображення */
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+}
+
+/* Анімація */
+@keyframes rotate {
+    0% {
+        transform: rotateY(0deg);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
