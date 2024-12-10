@@ -41,8 +41,8 @@ border-radius: 30px;
 margin: 5px;
 }
 /* Скидання стилів */
-html, body {
-    background: #000; /* Чорний фон */
+ body {
+    background: #0000; /* Чорний фон */
 }
 
 /* Карусель */
