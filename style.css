@@ -43,22 +43,16 @@ font-size: 40px;
 border-radius: 30px;
 margin: 5px;
 }
-.carousel {
-    position: relative;
-    width: 300px; /* Розмір контейнера */
-    height: 300px;
-    perspective: 10000px; /* Глибина 3D ефекту */
-    transform-style: preserve-3d;
-    animation: rotate 40s linear infinite; /* Анімація обертання */
+.carousel img:nth-child(1) {
+    transform: rotateY(0deg) translateZ(500px);
 }
-
-.carousel-item {
-    position: absolute;
-    width: 100%; /* Розмір елементів (зображень) */
-    height: 100%;
-    transform-origin:center; /* Точка обертання */
-    transform-style: preserve-3d;
+.carousel img:nth-child(2) {
+    transform: rotateY(45deg) translateZ(500px);
 }
+.carousel img:nth-child(3) {
+    transform: rotateY(90deg) translateZ(500px);
+}
+/* Додайте більше зображень за потребою */
 
 /* Розташування 13 зображень рівномірно по колу */
 .carousel-item:nth-child(1) { transform: rotateY(calc(360deg / 13 * 0)) translateZ(500px); }
