@@ -8,7 +8,7 @@ margin: 5px;
 
 }
 body{
- background-color: rgb(7,0,0);
+ background: rgb(7,0,0);
 }
 h2{
 background: rgb(255,252,0);
@@ -44,13 +44,7 @@ border-radius: 30px;
 margin: 5px;
 }
 /* Скидання стилів */
-html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    overflow: hidden;
-    background: #000; /* Чорний фон */
-}
+
 
 /* Карусель */
 .carousel {
