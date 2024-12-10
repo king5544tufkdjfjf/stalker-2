@@ -7,6 +7,9 @@ border-radius: 30px;
 margin: 5px;
 
 }
+body {
+ background-color: #0000;
+}
 h2{
 background: rgb(255,252,0);
 background: radial-gradient(circle, rgba(255,252,0,1) 52%, rgba(255,252,0,1) 56%, rgba(249,246,0,1) 59%, rgba(244,241,0,1) 62%, rgba(214,212,0,1) 66%, rgba(246,155,0,1) 76%, rgba(255,149,0,1) 81%, rgba(223,63,0,1) 89%, rgba(224,46,0,1) 92%, rgba(203,30,0,1) 96%, rgba(142,0,0,1) 98%, rgba(107,0,0,1) 100%);
