@@ -55,8 +55,8 @@ margin: 5px;
 .carousel-item {
     position: absolute;
     width: 7
-     100%; /* Розмір елементів (зображень) */
-    height: 100%;
+     150%; /* Розмір елементів (зображень) */
+    height: 150%;
     transform-origin:center; /* Точка обертання */
     transform-style: preserve-3d;
 }
@@ -77,8 +77,8 @@ margin: 5px;
 .carousel-item:nth-child(13) { transform: rotateY(calc(360deg / 13 * 12)) translateZ(500px); }
 
 .carousel img {
-    width: 100%; /* Розмір зображення */
-    height: 100%;
+    width: 180%; /* Розмір зображення */
+    height: 180%;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
@@ -86,7 +86,7 @@ margin: 5px;
 
 /* Анімація */
 @keyframes rotate {
-    0% {
+    10% {
         transform: rotateY(0deg);
     }
     100% {
