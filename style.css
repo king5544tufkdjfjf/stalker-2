@@ -54,8 +54,8 @@ margin: 5px;
 
 .carousel-item {
     position: absolute;
-    width: 200%; /* Розмір елементів (зображень) */
-    height: 200%;
+    width: 210%; /* Розмір елементів (зображень) */
+    height: 210%;
     transform-origin:center; /* Точка обертання */
     transform-style: preserve-3d;
 }
@@ -76,8 +76,8 @@ margin: 5px;
 .carousel-item:nth-child(13) { transform: rotateY(calc(360deg / 13 * 12)) translateZ(500px); }
 
 .carousel img {
-    width: 250%; /* Розмір зображення */
-    height: 250%;
+    width: 200%; /* Розмір зображення */
+    height: 200%;
     object-fit: cover;
     border-radius: 10px;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
