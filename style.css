@@ -44,6 +44,13 @@ border-radius: 30px;
 margin: 5px;
 }
 /* Скидання стилів */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    background: #000; /* Чорний фон */
+}
 
 /* Карусель */
 .carousel {
@@ -52,7 +59,7 @@ margin: 5px;
     height: 100%;
     perspective: 1000px; /* Перспектива для 3D */
     transform-style: preserve-3d; /* Зберігаємо 3D трансформації */
-    animation: rotate 15s infinite linear; /* Обертання каруселі */
+    animation: rotate 15s infinite linear; /* Анімація обертання */
 }
 
 /* Картинки */
@@ -60,28 +67,29 @@ margin: 5px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform-origin: center center -500px; /* Відстань між центром і картинками */
+    transform-origin: center center -600px; /* Відстань від центру до картинки */
     transform-style: preserve-3d;
-    width: 15%; /* Розмір картинки відносно ширини екрану */
-    height: auto;
+    width: 200px; /* Квадратна картинка */
+    height: 200px;
+    object-fit: cover; /* Забезпечує правильне масштабування */
     border-radius: 10px; /* Закруглені краї */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Тінь */
 }
 
 /* Розміщення картинок по колу */
-.carousel img:nth-child(1) { transform: rotateY(0deg); }
-.carousel img:nth-child(2) { transform: rotateY(27.7deg); }
-.carousel img:nth-child(3) { transform: rotateY(55.4deg); }
-.carousel img:nth-child(4) { transform: rotateY(83.1deg); }
-.carousel img:nth-child(5) { transform: rotateY(110.8deg); }
-.carousel img:nth-child(6) { transform: rotateY(138.5deg); }
-.carousel img:nth-child(7) { transform: rotateY(166.2deg); }
-.carousel img:nth-child(8) { transform: rotateY(193.9deg); }
-.carousel img:nth-child(9) { transform: rotateY(221.6deg); }
-.carousel img:nth-child(10) { transform: rotateY(249.3deg); }
-.carousel img:nth-child(11) { transform: rotateY(277deg); }
-.carousel img:nth-child(12) { transform: rotateY(304.7deg); }
-.carousel img:nth-child(13) { transform: rotateY(332.4deg); }
+.carousel img:nth-child(1) { transform: rotateY(0deg) translateZ(600px); }
+.carousel img:nth-child(2) { transform: rotateY(27.7deg) translateZ(600px); }
+.carousel img:nth-child(3) { transform: rotateY(55.4deg) translateZ(600px); }
+.carousel img:nth-child(4) { transform: rotateY(83.1deg) translateZ(600px); }
+.carousel img:nth-child(5) { transform: rotateY(110.8deg) translateZ(600px); }
+.carousel img:nth-child(6) { transform: rotateY(138.5deg) translateZ(600px); }
+.carousel img:nth-child(7) { transform: rotateY(166.2deg) translateZ(600px); }
+.carousel img:nth-child(8) { transform: rotateY(193.9deg) translateZ(600px); }
+.carousel img:nth-child(9) { transform: rotateY(221.6deg) translateZ(600px); }
+.carousel img:nth-child(10) { transform: rotateY(249.3deg) translateZ(600px); }
+.carousel img:nth-child(11) { transform: rotateY(277deg) translateZ(600px); }
+.carousel img:nth-child(12) { transform: rotateY(304.7deg) translateZ(600px); }
+.carousel img:nth-child(13) { transform: rotateY(332.4deg) translateZ(600px); }
 
 /* Анімація обертання */
 @keyframes rotate {
@@ -91,7 +99,6 @@ margin: 5px;
     to {
         transform: rotateY(360deg);
     }
-}
 }
 .img1 {
    filter: drop-shadow(1px 5px 20px rgb(255, 0, 0));
