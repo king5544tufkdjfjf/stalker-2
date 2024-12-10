@@ -42,10 +42,6 @@ margin: 5px;
 }
 /* Скидання стилів */
 html, body {
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    overflow: hidden;
     background: #000; /* Чорний фон */
 }
 
