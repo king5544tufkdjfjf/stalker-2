@@ -54,8 +54,8 @@ margin: 5px;
 
 .carousel-item {
     position: absolute;
-    width: 250%; /* Розмір елементів (зображень) */
-    height: 250%;
+    width: 200%; /* Розмір елементів (зображень) */
+    height: 200%;
     transform-origin:center; /* Точка обертання */
     transform-style: preserve-3d;
 }
