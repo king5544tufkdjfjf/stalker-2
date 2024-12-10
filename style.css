@@ -15,9 +15,6 @@ font-size: 40px;
 border-radius: 30px;
 margin: 5px;
 }
- body{
-    background-color: rgb(7, 0, 0);
- }
  h3{
 background: rgb(214,212,0);
 background: radial-gradient(circle, rgba(214,212,0,1) 41%, rgba(255,149,0,1) 64%, rgba(142,0,0,1) 96%, rgba(0,0,0,1) 100%);
