@@ -1,102 +1,123 @@
 h1{
-background: rgb(255,252,0);
-background: radial-gradient(circle, rgba(255,252,0,1) 52%, rgba(255,252,0,1) 56%, rgba(249,246,0,1) 59%, rgba(244,241,0,1) 62%, rgba(214,212,0,1) 66%, rgba(246,155,0,1) 76%, rgba(255,149,0,1) 81%, rgba(223,63,0,1) 89%, rgba(224,46,0,1) 92%, rgba(203,30,0,1) 96%, rgba(142,0,0,1) 98%, rgba(107,0,0,1) 100%);
-text-align: center;
-font-size: 40px;
-border-radius: 30px;
-margin: 5px;
-
-}
-body{
- background: rgb(7,0,0);
-}
-h2{
-background: rgb(255,252,0);
-background: radial-gradient(circle, rgba(255,252,0,1) 52%, rgba(255,252,0,1) 56%, rgba(249,246,0,1) 59%, rgba(244,241,0,1) 62%, rgba(214,212,0,1) 66%, rgba(246,155,0,1) 76%, rgba(255,149,0,1) 81%, rgba(223,63,0,1) 89%, rgba(224,46,0,1) 92%, rgba(203,30,0,1) 96%, rgba(142,0,0,1) 98%, rgba(107,0,0,1) 100%);
-text-align: center;
-font-size: 40px;
-border-radius: 30px;
-margin: 5px;
-}
- h3{
-background: rgb(214,212,0);
-background: radial-gradient(circle, rgba(214,212,0,1) 41%, rgba(255,149,0,1) 64%, rgba(142,0,0,1) 96%, rgba(0,0,0,1) 100%);
-text-align: center;
-font-size: 40px;
-border-radius: 30px;
-margin: 5px;
-}
- ul{
-background: rgb(255,252,0);
-background: radial-gradient(circle, rgba(255,252,0,1) 52%, rgba(255,252,0,1) 56%, rgba(249,246,0,1) 59%, rgba(244,241,0,1) 62%, rgba(214,212,0,1) 66%, rgba(246,155,0,1) 76%, rgba(255,149,0,1) 81%, rgba(223,63,0,1) 89%, rgba(224,46,0,1) 92%, rgba(203,30,0,1) 96%, rgba(142,0,0,1) 98%, rgba(107,0,0,1) 100%);
-text-align: center;
-font-size: 40px;
-border-radius: 30px;
-margin: 5px;
-}
-p{
-background: rgb(255,252,0);
-background: radial-gradient(circle, rgba(255,252,0,1) 52%, rgba(255,252,0,1) 56%, rgba(249,246,0,1) 59%, rgba(244,241,0,1) 62%, rgba(214,212,0,1) 66%, rgba(246,155,0,1) 76%, rgba(255,149,0,1) 81%, rgba(223,63,0,1) 89%, rgba(224,46,0,1) 92%, rgba(203,30,0,1) 96%, rgba(142,0,0,1) 98%, rgba(107,0,0,1) 100%);background: rgb(255,252,0);
-background: radial-gradient(circle, rgba(255,252,0,1) 52%, rgba(255,252,0,1) 56%, rgba(249,246,0,1) 59%, rgba(244,241,0,1) 62%, rgba(214,212,0,1) 66%, rgba(246,155,0,1) 76%, rgba(255,149,0,1) 81%, rgba(223,63,0,1) 89%, rgba(224,46,0,1) 92%, rgba(203,30,0,1) 96%, rgba(142,0,0,1) 98%, rgba(107,0,0,1) 100%);
-text-align: center;
-font-size: 40px;
-border-radius: 30px;
-margin: 5px;
-}
-/* Скидання стилів */
-
-
-/* Карусель */
-.carousel {
-    position: relative;
-    width: 100%;
-    height: 100%;
-    perspective: 1000px; /* Перспектива для 3D */
-    transform-style: preserve-3d; /* Зберігаємо 3D трансформації */
-    animation: rotate 15s infinite linear; /* Анімація обертання */
-}
-
-/* Картинки */
-.carousel img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform-origin: center center -600px; /* Відстань від центру до картинки */
-    transform-style: preserve-3d;
-    width: 200px; /* Квадратна картинка */
-    height: 200px;
-    object-fit: cover; /* Забезпечує правильне масштабування */
-    border-radius: 10px; /* Закруглені краї */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Тінь */
-}
-
-/* Розміщення картинок по колу */
-.carousel img:nth-child(1) { transform: rotateY(0deg) translateZ(600px); }
-.carousel img:nth-child(2) { transform: rotateY(27.7deg) translateZ(600px); }
-.carousel img:nth-child(3) { transform: rotateY(55.4deg) translateZ(600px); }
-.carousel img:nth-child(4) { transform: rotateY(83.1deg) translateZ(600px); }
-.carousel img:nth-child(5) { transform: rotateY(110.8deg) translateZ(600px); }
-.carousel img:nth-child(6) { transform: rotateY(138.5deg) translateZ(600px); }
-.carousel img:nth-child(7) { transform: rotateY(166.2deg) translateZ(600px); }
-.carousel img:nth-child(8) { transform: rotateY(193.9deg) translateZ(600px); }
-.carousel img:nth-child(9) { transform: rotateY(221.6deg) translateZ(600px); }
-.carousel img:nth-child(10) { transform: rotateY(249.3deg) translateZ(600px); }
-.carousel img:nth-child(11) { transform: rotateY(277deg) translateZ(600px); }
-.carousel img:nth-child(12) { transform: rotateY(304.7deg) translateZ(600px); }
-.carousel img:nth-child(13) { transform: rotateY(332.4deg) translateZ(600px); }
-
-/* Анімація обертання */
-@keyframes rotate {
-    from {
-        transform: rotateY(0deg);
+    background: rgb(255,252,0);
+    background: radial-gradient(circle, rgba(255,252,0,1) 52%, rgba(255,252,0,1) 56%, rgba(249,246,0,1) 59%, rgba(244,241,0,1) 62%, rgba(214,212,0,1) 66%, rgba(246,155,0,1) 76%, rgba(255,149,0,1) 81%, rgba(223,63,0,1) 89%, rgba(224,46,0,1) 92%, rgba(203,30,0,1) 96%, rgba(142,0,0,1) 98%, rgba(107,0,0,1) 100%);
+    text-align: center;
+    font-size: 40px;
+    border-radius: 30px;
+    margin: 5px;
+    
     }
-    to {
-        transform: rotateY(360deg);
+    h2{
+    background: rgb(255,252,0);
+    background: radial-gradient(circle, rgba(255,252,0,1) 52%, rgba(255,252,0,1) 56%, rgba(249,246,0,1) 59%, rgba(244,241,0,1) 62%, rgba(214,212,0,1) 66%, rgba(246,155,0,1) 76%, rgba(255,149,0,1) 81%, rgba(223,63,0,1) 89%, rgba(224,46,0,1) 92%, rgba(203,30,0,1) 96%, rgba(142,0,0,1) 98%, rgba(107,0,0,1) 100%);
+    text-align: center;
+    font-size: 40px;
+    border-radius: 30px;
+    margin: 5px;
     }
-}
-.img1 {
-   filter: drop-shadow(1px 5px 20px rgb(255, 0, 0));
-}
-.img2 {
-   filter: drop-shadow(1px 5px 20px rgb(106, 89, 179));
-}
+     body{
+        background-color:black ;
+     }
+     h3{
+    background: rgb(214,212,0);
+    background: radial-gradient(circle, rgba(214,212,0,1) 41%, rgba(255,149,0,1) 64%, rgba(142,0,0,1) 96%, rgba(0,0,0,1) 100%);
+    text-align: center;
+    font-size: 40px;
+    border-radius: 30px;
+    margin: 5px;
+    }
+     ul{
+    background: rgb(255,252,0);
+    background: radial-gradient(circle, rgba(255,252,0,1) 52%, rgba(255,252,0,1) 56%, rgba(249,246,0,1) 59%, rgba(244,241,0,1) 62%, rgba(214,212,0,1) 66%, rgba(246,155,0,1) 76%, rgba(255,149,0,1) 81%, rgba(223,63,0,1) 89%, rgba(224,46,0,1) 92%, rgba(203,30,0,1) 96%, rgba(142,0,0,1) 98%, rgba(107,0,0,1) 100%);
+    text-align: center;
+    font-size: 40px;
+    border-radius: 30px;
+    margin: 5px;
+    }
+    p{
+    background: rgb(255,252,0);
+    background: radial-gradient(circle, rgba(255,252,0,1) 52%, rgba(255,252,0,1) 56%, rgba(249,246,0,1) 59%, rgba(244,241,0,1) 62%, rgba(214,212,0,1) 66%, rgba(246,155,0,1) 76%, rgba(255,149,0,1) 81%, rgba(223,63,0,1) 89%, rgba(224,46,0,1) 92%, rgba(203,30,0,1) 96%, rgba(142,0,0,1) 98%, rgba(107,0,0,1) 100%);background: rgb(255,252,0);
+    background: radial-gradient(circle, rgba(255,252,0,1) 52%, rgba(255,252,0,1) 56%, rgba(249,246,0,1) 59%, rgba(244,241,0,1) 62%, rgba(214,212,0,1) 66%, rgba(246,155,0,1) 76%, rgba(255,149,0,1) 81%, rgba(223,63,0,1) 89%, rgba(224,46,0,1) 92%, rgba(203,30,0,1) 96%, rgba(142,0,0,1) 98%, rgba(107,0,0,1) 100%);
+    text-align: center;
+    font-size: 40px;
+    border-radius: 30px;
+    margin: 5px;
+    }
+   .div {
+    background-size: 100% 100%;
+    
+    animation: slider 40s linear infinite;
+   }
+    @keyframes slider {
+     25%{background-image: url(https://img.gsc-game.net/q_85/stalker2/media/preview/2311-02.jpg);}
+     30%{background-image: url(https://img.gsc-game.net/q_85/stalker2/media/preview/2404-01.jpg);}
+     35%{background-image: url(https://img.gsc-game.net/q_85/stalker2/media/preview/2404-01.jpg);}
+     40%{background-image: url(https://img.gsc-game.net/q_85/stalker2/media/preview/2404-02.jpg);}
+     45%{background-image: url(https://img.gsc-game.net/q_85/stalker2/media/preview/2404-04.jpg);}
+     50%{background-image: url(https://img.gsc-game.net/q_85/stalker2/media/preview/2406-01.jpg);}
+     55%{background-image: url(https://img.gsc-game.net/q_85/stalker2/media/preview/2406-03.jpg);}
+     60%{background-image: url(https://img.gsc-game.net/q_85/stalker2/media/preview/2311-01.jpg);}
+     65%{background-image: url(https://img.gsc-game.net/q_85/stalker2/media/preview/2212-01.jpg);}
+    }
+    .img1 {
+       filter: drop-shadow(1px 5px 20px rgb(255, 0, 0));
+    }
+    .img2 {
+       filter: drop-shadow(1px 5px 20px rgb(106, 89, 179));
+    }
+    .container {
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      flex-direction:row; /* Кнопки одна під одною */
+      gap: 40px; /* Відстань між кнопками */
+      height: 50px; /* Висота на весь екран */
+      background-color: #000000; 
+      margin: 20px;
+      
+    }
+    
+    .sparkle-button {
+      position: relative;
+      display: inline-block;
+      padding: 5px 20px;
+      font-size:   30px;
+      font-weight: bold;
+      text-decoration: none;
+      background: transparent;
+      border: none;
+      border-radius: 20px;
+      cursor: pointer;
+      overflow: hidden;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      opacity: 1; /* Початково майже невидима */
+    }
+    
+    .sparkle-button:hover {
+      color: #000000; /* Робимо текст видимим */
+      transform: scale(1.2);
+      box-shadow: 0 0 200px rgba(238, 255, 0, 0.8), 0 0 50px rgba(255, 149, 0, 0.6);
+      opacity: 1; /* Робимо кнопку повністю видимою */
+    }
+    
+    .button-text {
+      position: relative;
+      z-index: 2; /* Текст поверх ефектів */
+    }
+    
+    .sparkle-button::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: radial-gradient(circle, rgba(214, 212, 0, 1) 41%, rgba(255, 149, 0, 1) 64%, rgba(142, 0, 0, 1) 96%, rgba(0, 0, 0, 1) 100%);
+      opacity: 0;
+      transition: opacity 0.3s ease;
+      border-radius: 30px;
+    }
+    
+    .sparkle-button:hover::before {
+      opacity: 1; /* Світіння при наведенні */
+    }
